@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(134, 187, 187);
+  font-size: 20px;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.header{
+  text-align: center;
+}
+.header .header-text{
+  height: 500px;
+  background-image: url(https://img4.thuthuatphanmem.vn/uploads/2019/12/22/hinh-anh-cay-dua-vuon-ra-bien-cuc-dep_014252603.jpg);
+  color: rgb(231, 14, 166);
+}
+.header .header-text h1{
+  line-height: 500px;
+  font-size: 45px;
+}
+.header table{
+  margin-top: 20px;
+  width: 100%;
+}
+.header table, th, td {
+  border: 1px solid black;
+}
+.mid {
+  width: 80%;
+  margin: 0 auto  ;
+}
+.bottom{
+  background-color: rgb(82, 145, 145);
+}
+.bottom .bt{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+.bottom .bt-left{
+  line-height: 35px;
+  color: rgb(255, 136, 0);
+}
+.bottom .bt-right{
+  line-height: 70px;
+}
+.bottom .bt-right a{
+  text-decoration: none;
+  color: rgb(255, 136, 0);
+}
+.bottom .bt-right i{
+  color: blue;
+}
