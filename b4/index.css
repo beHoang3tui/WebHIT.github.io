@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  background-color: rgb(42, 46, 46);
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.header{
+  height: 100px;
+  margin-top: 100px ;
+  margin-left: 12px;
+}
+.header h2{
+  color: red;
+}
+.mid{
+  display: flex;
+}
+.mid-tren , .mid-duoi{
+  display: flex;
+}
+
+.mid .sang ,.chieu, .trua{
+  border-right:1px solid rgb(158, 158, 158) ;
+}
+.mid .sang-box , .trua-box, .chieu-box, .toi-box{
+  width: 90%;
+  margin: 0 auto;
+}
+.mid-tren{
+  width: 50%;
+}
+.mid-duoi{
+  width: 50%;
+}
+.mid .sang, .chieu{
+  width: 40%;
+}
+.mid .trua ,.toi{
+  width: 60%;
+}
+.mid .sang .box{
+  height: 150px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+.mid .sang .c{
+  border: 0;
+}
+
+.mid img{
+  width: 350px;
+}
+.mid .chieu .box{
+  height: 150px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+.mid .chieu .c{
+  border: 0;
+}
